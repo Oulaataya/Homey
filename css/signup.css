@@ -1,0 +1,54 @@
+body {
+  background-color: antiquewhite;
+  font-family: "Times New Roman", Times, serif0;
+}
+.container {
+  background-image: url(../image/login.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+  /* margin: 50%; */
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 75px;
+  border-radius: 25px;
+  width: 250px;
+  box-shadow: 0 10px 25px rgb(19, 19, 19);
+  background: rgba(250, 243, 234, 0.619);
+  font-size: 20px;
+  color: rgb(122, 26, 26);
+}
+.info {
+  padding: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 15px;
+}
+.info button {
+  background-color: rgb(115, 51, 50);
+  margin: 10px;
+  color: rgb(249, 241, 225);
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.info button:hover {
+  background-color: rgb(157, 67, 67);
+}
+.info button:active {
+  background-color: rgb(214, 126, 126);
+}

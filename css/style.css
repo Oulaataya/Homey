@@ -1,0 +1,357 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: rgb(237, 216, 167);
+  border-bottom: solid;
+  border-color: rgb(141, 70, 20);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: rgb(84, 55, 13);
+}
+
+.navbar ul {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  list-style-type: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(86, 56, 13);
+}
+.part a:hover {
+  color: rgb(210, 138, 30);
+  border-bottom: solid 5px;
+  font-size: 23px;
+}
+.part a:active {
+  color: rgb(226, 178, 108);
+  border-bottom: solid 5px;
+  font-size: 20px;
+}
+.sign {
+  color: rgb(86, 56, 13);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+#in a:hover {
+  color: rgb(210, 138, 30);
+}
+#in a:active {
+  color: rgb(226, 178, 108);
+}
+#up a:hover {
+  color: rgb(233, 58, 31);
+}
+#up a:active {
+  color: rgb(224, 114, 114);
+}
+#in {
+  padding: 0px 10px;
+  border-right: solid 2px;
+  border-color: rgb(86, 56, 13);
+}
+#up a {
+  color: rgb(151, 11, 11);
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.hok {
+  background-image: url(../image/hok.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  margin: 80px;
+  display: flex;
+  background-color: rgb(29, 27, 27);
+  border: solid;
+  border-color: antiquewhite;
+  border-radius: 25px;
+  align-items: center;
+}
+.hokdesc {
+  /* display: flex; */
+  flex-direction: column;
+  padding: 40px 20px;
+  text-shadow: 0px 10px 15px rgba(0, 181, 252, 0.166);
+  text-align: center;
+  align-items: center;
+  background-color: rgba(240, 255, 255, 0.675);
+  border-radius: 30px;
+  width: 50%;
+}
+.hokdesc h3 {
+  color: rgb(19, 75, 114);
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+.hokdesc p {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(36, 127, 137);
+}
+.hokdesc button {
+  color: white;
+  background-color: rgb(174, 109, 11);
+  padding: 10px 10px;
+  width: 250px;
+  height: 80px;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+.hokdesc button:hover {
+  background-color: rgb(109, 71, 14);
+}
+.hokdesc button:active {
+  background-color: rgb(235, 141, 41);
+}
+
+.sponser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0px 15px 20px rgba(12, 30, 223, 0.21);
+  color: rgb(17, 78, 170);
+  background-color: rgb(248, 243, 235);
+}
+
+.sp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+  margin-bottom: 20px;
+}
+
+.sp img {
+  width: 80px;
+  height: 80px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  padding: 50px;
+}
+.about h3 {
+  font-size: 30px;
+  color: rgb(212, 123, 21);
+  text-shadow: 0px 15px 20px rgba(223, 132, 12, 0.21);
+}
+.aboutdis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 100px;
+  font-size: 20px;
+  color: rgb(3, 3, 50);
+  width: 700px;
+}
+.aboutdis img {
+  width: 1200px;
+  height: 250px;
+  border: solid;
+  border-color: bisque;
+  border-radius: 30px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(254, 244, 230);
+}
+.product h3 {
+  font-size: 35px;
+  color: rgb(16, 16, 177);
+}
+.productbox {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 10px;
+}
+.card {
+  background-color: white;
+  align-items: center;
+  width: 225px;
+  border: solid;
+  border-radius: 30px;
+  border-color: rgb(110, 72, 12);
+}
+.card img {
+  border-radius: 30px;
+}
+.dis {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+  font-size: 10px;
+  color: rgb(8, 14, 72);
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+}
+.price h4 {
+  font-size: 20px;
+  color: chocolate;
+}
+.dis button {
+  background-color: rgb(5, 66, 136);
+  color: white;
+  width: 100px;
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.dis button:hover {
+  background-color: rgb(43, 43, 101);
+}
+.dis button:active {
+  background-color: rgb(104, 104, 200);
+}
+
+footer {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(49, 33, 13);
+  color: rgb(242, 228, 203);
+  text-align: center;
+  align-items: center;
+}
+footer p {
+  padding: 10px;
+  border-bottom: solid 0.25px;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.contact a {
+  text-decoration: none;
+  color: rgb(234, 164, 78);
+}
+.contact h2 {
+  color: rgb(234, 164, 78);
+}
+.logout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  gap: 5px;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .part {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .sign {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .profile {
+    margin-top: 10px;
+  }
+  .hok {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    height: 400px;
+    margin: 20px;
+  }
+
+  .hokdesc {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+  .hokdesc h3 {
+    font-size: 40px;
+  }
+  .hokdesc p {
+    font-size: 30px;
+  }
+  .hokdesc button {
+    width: 160px;
+  }
+  .sp {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+  }
+  .aboutdis {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+  }
+  .aboutdis img {
+    height: 300px;
+    width: 400px;
+  }
+  .productbox {
+    gap: 10px;
+  }
+}

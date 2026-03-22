@@ -1,0 +1,82 @@
+.cart {
+  background-color: rgb(67, 44, 16);
+  margin: 0px 0pxs;
+  text-align: center;
+  padding: 20px;
+}
+.cart h1 {
+  margin: 20px;
+  color: rgb(255, 255, 255);
+}
+.cartbox {
+  background-color: antiquewhite;
+  border-radius: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 210px));
+
+  justify-content: center;
+  padding: 20px;
+}
+.cart-item {
+  display: flex;
+  flex-direction: column;
+  color: rgb(210, 34, 34);
+  font-size: 20px;
+  padding: 10px;
+
+  align-items: center;
+  border: solid 0.25px;
+  border-color: rgb(225, 200, 170);
+}
+.cart-item img {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.cart-item p {
+  color: rgb(60, 28, 10);
+}
+#total {
+  background-color: rgb(155, 40, 5);
+  color: white;
+  border-radius: 50px;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.cart-item button {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 2px;
+  width: 60px;
+  background-color: rgb(246, 144, 133);
+  color: rgb(0, 0, 0);
+  border-color: rgb(68, 20, 20);
+  border-radius: 10px;
+  cursor: pointer;
+}
+#delete {
+  width: 140px;
+}
+.pay {
+  background-color: rgb(67, 44, 16);
+  text-align: center;
+  color: white;
+}
+.pay button {
+  color: white;
+  background-color: rgb(255, 68, 0);
+  width: 200px;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px;
+}
+.pay button:hover {
+  background-color: rgb(107, 22, 22);
+}
+.pay button:active {
+  background-color: rgb(216, 112, 112);
+}

@@ -1,0 +1,46 @@
+.box {
+  background-color: antiquewhite;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 250px));
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* width: 100%; */
+  gap: 10px;
+}
+.box h3 {
+  color: rgb(15, 4, 172);
+}
+.box h2 {
+  color: rgb(187, 4, 4);
+}
+.box p {
+  color: rgb(15, 12, 63);
+}
+
+.card button {
+  background-color: rgb(94, 9, 9);
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.card button:hover {
+  background-color: rgb(146, 62, 62);
+}
+.card button:active {
+  background-color: rgb(200, 98, 98);
+}
+@media screen and (max-width: 768px) {
+  .box {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(10px, 210px));
+    gap: 25px;
+    padding: 5px;
+    /* background-color: rgb(59, 15, 15); */
+  }
+}

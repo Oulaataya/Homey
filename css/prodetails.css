@@ -1,0 +1,40 @@
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.decard {
+  display: flex;
+  /* width: 500px; */
+  background-color: rgb(251, 248, 239);
+  padding: 20px;
+  margin: 5px;
+  border-radius: 25px;
+}
+.decard img {
+  border-radius: 20px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 25px;
+}
+.details h3 {
+  font-size: 30px;
+}
+.details button {
+  background-color: rgb(94, 9, 9);
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.details button:hover {
+  background-color: rgb(146, 62, 62);
+}
+.details button:active {
+  background-color: rgb(200, 98, 98);
+}
