@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Classic Bathroom ",
       category: "bath",
       price: 200,
-      image: " image/bath1.jpg",
+      image: "image/bath1.jpg",
     },
     {
       id: 1,
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Gray bathroom ",
       category: "bath",
       price: 100,
-      image: " image/bath2.jpg",
+      image: "image/bath2.jpg",
     },
     {
       id: 1,
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Wooden bathroom ",
       category: "bath",
       price: 500,
-      image: " image/bath3.jpg",
+      image: "image/bath3.jpg",
     },
     {
       id: 1,
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Green bathroom ",
       category: "bath",
       price: 100,
-      image: " image/bath4.jpg",
+      image: "image/bath4.jpg",
     },
     {
       id: 1,
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Modern bathroom",
       category: "bath",
       price: 800,
-      image: " image/bath5.jpg",
+      image: "image/bath5.jpg",
     },
     {
       id: 1,
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Simple bath ",
       category: "bath",
       price: 100,
-      image: " image/bath6.jpg",
+      image: "image/bath6.jpg",
     },
 
     //living--------------------------------------------------
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "B&G room ",
       category: "living",
       price: 800,
-      image: " image/liv1.jpg",
+      image: "image/liv1.jpg",
     },
     {
       id: 2,
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Classic room ",
       category: "living",
       price: 700,
-      image: " image/liv2.jpg",
+      image: "image/liv2.jpg",
     },
     {
       id: 2,
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Wooden room ",
       category: "living",
       price: 200,
-      image: " image/liv3.jpg",
+      image: "image/liv3.jpg",
     },
     {
       id: 2,
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Classic room ",
       category: "living",
       price: 800,
-      image: " image/liv4.jpg",
+      image: "image/liv4.jpg",
     },
     {
       id: 2,
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "White room ",
       category: "living",
       price: 200,
-      image: " image/liv5.jpg",
+      image: "image/liv5.jpg",
     },
     {
       id: 2,
@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Old room ",
       category: "living",
       price: 100,
-      image: " image/liv6.jpg",
+      image: "image/liv6.jpg",
     },
     //bedroom------------------------------------------------
     {
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Pink room ",
       category: "bed",
       price: 300,
-      image: " image/bed1.jpg",
+      image: "image/bed1.jpg",
     },
     {
       id: 3,
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Modern room ",
       category: "bed",
       price: 800,
-      image: " image/bed2.jpg",
+      image: "image/bed2.jpg",
     },
     {
       id: 3,
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Black room ",
       category: "bed",
       price: 300,
-      image: " image/bed3.jpg",
+      image: "image/bed3.jpg",
     },
     {
       id: 3,
@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "White room ",
       category: "bed",
       price: 900,
-      image: " image/bed4.jpg",
+      image: "image/bed4.jpg",
     },
     {
       id: 3,
@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Classic room ",
       category: "bed",
       price: 300,
-      image: " image/bed5.jpg",
+      image: "image/bed5.jpg",
     },
     {
       id: 3,
@@ -177,7 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Simple room ",
       category: "bed",
       price: 200,
-      image: " image/bed6.jpg",
+      image: "image/bed6.jpg",
     },
     //garden--------------------------------------------------------
     {
@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Modern  ",
       category: "garden",
       price: 800,
-      image: " image/g1.jpg",
+      image: "image/g1.jpg",
     },
     {
       id: 4,
@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Wooden  ",
       category: "garden",
       price: 500,
-      image: " image/g2.jpg",
+      image: "image/g2.jpg",
     },
     {
       id: 4,
@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Classic  ",
       category: "garden",
       price: 400,
-      image: " image/g3.jpg",
+      image: "image/g3.jpg",
     },
     {
       id: 4,
@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Circle  ",
       category: "garden",
       price: 700,
-      image: " image/g4.jpg",
+      image: "image/g4.jpg",
     },
     {
       id: 4,
@@ -218,7 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "simple ",
       category: "garden",
       price: 200,
-      image: " image/g5.jpg",
+      image: "image/g5.jpg",
     },
     {
       id: 4,
@@ -226,7 +226,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Pink ",
       category: "garden",
       price: 350,
-      image: " image/g6.jpg",
+      image: "image/g6.jpg",
     },
     //kitchen---------------------------------------------------
     {
@@ -235,7 +235,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Blue classic ",
       category: "kitchen",
       price: 350,
-      image: " image/k1.jpg",
+      image: "image/k1.jpg",
     },
     {
       id: 5,
@@ -243,7 +243,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: " classic ",
       category: "kitchen",
       price: 400,
-      image: " image/k2.jpg",
+      image: "image/k2.jpg",
     },
     {
       id: 5,
@@ -251,7 +251,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Wooden ",
       category: "kitchen",
       price: 200,
-      image: " image/k3.jpg",
+      image: "image/k3.jpg",
     },
     {
       id: 5,
@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Black modern ",
       category: "kitchen",
       price: 500,
-      image: " image/k4.jpg",
+      image: "image/k4.jpg",
     },
     {
       id: 5,
@@ -267,7 +267,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "White&Green",
       category: "kitchen",
       price: 550,
-      image: " image/k5.jpg",
+      image: "image/k5.jpg",
     },
     {
       id: 5,
@@ -275,7 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Old Kitchen",
       category: "kitchen",
       price: 500,
-      image: " image/k6.jpg",
+      image: "image/k6.jpg",
     },
     //dining---------------------------------------------------
     {
@@ -284,7 +284,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Coffee table",
       category: "dining",
       price: 550,
-      image: " image/din1.jpg",
+      image: "image/din1.jpg",
     },
     {
       id: 6,
@@ -292,7 +292,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "White Room ",
       category: "dining",
       price: 950,
-      image: " image/din2.jpg",
+      image: "image/din2.jpg",
     },
     {
       id: 6,
@@ -300,7 +300,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Simple room",
       category: "dining",
       price: 350,
-      image: " image/din3.jpg",
+      image: "image/din3.jpg",
     },
     {
       id: 6,
@@ -308,7 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Modern table",
       category: "dining",
       price: 500,
-      image: " image/din4.jpg",
+      image: "image/din4.jpg",
     },
     {
       id: 6,
@@ -316,7 +316,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Black room",
       category: "dining",
       price: 550,
-      image: " image/din5.jpg",
+      image: "image/din5.jpg",
     },
     {
       id: 6,
@@ -324,7 +324,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "G&M room",
       category: "dining",
       price: 1000,
-      image: " image/din6.jpg",
+      image: "image/din6.jpg",
     },
   ];
 
